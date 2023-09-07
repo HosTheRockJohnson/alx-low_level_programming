@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - a program that prints the size of diffrent variables
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char a;
 	int b;

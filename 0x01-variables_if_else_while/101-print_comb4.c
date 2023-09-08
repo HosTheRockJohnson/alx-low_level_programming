@@ -21,10 +21,10 @@ int main(void)
 				putchar(c % 100 / 10 + '0');
 				putchar(c % 10 + '0');
 				if (c < 789)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}

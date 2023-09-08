@@ -3,18 +3,18 @@
 #include <stdio.h>
 
 /**
- * main - outputs small letters in the alphabet 
+ *main - outputs small letters in the alphabet 
  *Return: 0 (success)
  */
 
 int main(void)
 {
-       	char c;
+	char c;
 
-       	for(c = 'a'; c <= 'z'; c++)
-       	{
+	for (c = 'a'; c <= 'z'; c++)
+	{
 		putchar(c);
-       	}
- 	putchar('\n');
+	}
+	putchar('\n');
 	return 0;
 }

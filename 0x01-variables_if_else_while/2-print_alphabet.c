@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *main - outputs small letters in the alphabet 
+ *main - outputs small letters in the alphabet
  *Return: 0 (success)
  */
 
@@ -16,5 +16,5 @@ int main(void)
 		putchar(c);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }

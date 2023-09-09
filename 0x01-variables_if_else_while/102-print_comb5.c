@@ -1,0 +1,34 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *main - outputs small letters in the alphabet
+ *Return: 0 (success)
+ */
+
+int main(void)
+{
+	int c, i;
+
+	for (c = 0; c <= 99; c++)
+	{
+		for (i = 0; i <= 99; i++)
+		{
+			if (i == c)
+				continue;
+			putchar(c / 10 + '0');
+			putchar(c % 10 + '0');
+			putchar(' ');
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
+			if (c != 99 || i != 98)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}

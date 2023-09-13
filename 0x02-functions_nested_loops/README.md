@@ -1,1 +1,1 @@
-0x02-function-_nested-loops problems are solved here
+0x02-functions_nested_loops problems are solved here
